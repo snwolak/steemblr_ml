@@ -3,6 +3,11 @@ import styled from 'styled-components'
 import Form from './components/Form'
 import getPosts from './helpers/getPosts'
 import PostLoader from './components/PostLoader'
+import Buttons from './components/Buttons'
+import {getData} from './actions/getData'
+import store from './store'
+import { connect } from "react-redux";
+
 const Container = styled.div`
 box-sizing: border-box;
 display: flex;
@@ -26,6 +31,7 @@ class App extends Component {
     e.preventDefault()
     const value = e.target.value
     const steemPosts = await getPosts(value)
+    await store.dispatch(getData(value))
     this.setState({
       posts: steemPosts,
       isLoaded: true
@@ -36,10 +42,14 @@ class App extends Component {
      <Container>
        <header>Create JSON for ML</header>
         <Form get={this.handleGetPosts}/>
-        {this.state.isLoaded && <PostLoader posts={this.state.posts}/>}
+        {this.state.isLoaded && <PostLoader posts={this.props.steem.posts}/>}
+        <Buttons />
+        
      </Container>
     );
   }
 }
-
-export default App;
+const mapStateToProps = state => ({
+  steem: state.steem
+});
+export default connect(mapStateToProps,{})(App);
