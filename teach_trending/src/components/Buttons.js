@@ -21,20 +21,25 @@ const Container = styled.div`
   }
 `
 export default class Buttons extends Component {
-  handleSave = () => {
-    
-    store.dispatch(savePost("Post"))
+  handleSave = (props) => {
+    store.dispatch(savePost(props))
     this.nextPage()
   }
   nextPage = () => {
     const page = store.getState().interface.page
-    store.dispatch(changePage(page + 1));
+    if(page === 50) {
+      return void 0
+    } else {
+      store.dispatch(changePage(page + 1));
+    }
+    
   }
   render() {
     return (
       <Container>
-        <button onClick={this.handleSave}>POPULAR</button>
-        <button onClick={this.nextPage}>UNDISCOVERED</button>
+        <button onClick={() => this.handleSave(true)}>POPULAR</button>
+        <button onClick={() => this.handleSave(false)}>UNDISCOVERED</button>
+        <button onClick={this.nextPage}>SKIP</button>
       </Container>
     )
   }

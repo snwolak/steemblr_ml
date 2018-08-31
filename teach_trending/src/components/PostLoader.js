@@ -1,15 +1,9 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import Post from './Post'
-export default class PostLoader extends Component {
-  constructor(props) {
-    super(props)
-  
-    this.state = {
-       page: 0,
-    }
-  }
+import {connect} from 'react-redux'
+ class PostLoader extends Component {
+
   renderPosts() {
 
    
@@ -17,7 +11,7 @@ export default class PostLoader extends Component {
   render() {
     return (
       <div>
-        {<Post post={this.props.posts[this.state.page]} />}
+        {<Post post={this.props.posts[this.props.interface.page]} />}
       </div>
     )
   }
@@ -25,3 +19,7 @@ export default class PostLoader extends Component {
 PostLoader.propTypes = {
  posts: PropTypes.array
 }
+const mapStateToProps = state => ({
+  interface: state.interface
+});
+export default connect(mapStateToProps,{})(PostLoader);

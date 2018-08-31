@@ -7,7 +7,7 @@ import Buttons from './components/Buttons'
 import {getData} from './actions/getData'
 import store from './store'
 import { connect } from "react-redux";
-
+import Download from './components/Download'
 const Container = styled.div`
 box-sizing: border-box;
 display: flex;
@@ -44,7 +44,7 @@ class App extends Component {
         <Form get={this.handleGetPosts}/>
         {this.state.isLoaded && <PostLoader posts={this.props.steem.posts}/>}
         <Buttons />
-        
+        <Download />
      </Container>
     );
   }
