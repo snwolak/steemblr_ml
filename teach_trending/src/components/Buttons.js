@@ -27,7 +27,7 @@ export default class Buttons extends Component {
   }
   nextPage = () => {
     const page = store.getState().interface.page
-    if(page === 50) {
+    if(page === 49) {
       return void 0
     } else {
       store.dispatch(changePage(page + 1));

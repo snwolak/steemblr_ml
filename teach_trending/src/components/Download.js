@@ -4,7 +4,19 @@ import store from '../store'
 export default class Download extends Component {
   handleDownload = () => {
     const content = store.getState().posts.list
-    fileDownload(JSON.stringify(content), 'dataset.json')
+    const contentFixed = content.map(item => {
+      return {
+        input: {
+          votes: item.votes,
+          comments: item.comments,
+          value: item.value
+        },
+        output: {
+          trending: item.t === false ? 0 : 1
+        }
+      }
+    })
+    fileDownload(JSON.stringify(contentFixed), 'dataset.json')
   }
   render() {
     return (
