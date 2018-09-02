@@ -1,0 +1,434 @@
+[
+  {
+    "input": { "votes": 20, "comments": 2, "value": 150.671 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 72, "comments": 3, "value": 0.72 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 564, "comments": 3, "value": 93.523 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 45, "comments": 2, "value": 73.847 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 27, "comments": 2, "value": 64.643 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 1054, "comments": 2, "value": 30.252 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 11, "comments": 0, "value": 28.469 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 547, "comments": 2, "value": 76.16 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 655, "comments": 1, "value": 46.331 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 126, "comments": 1, "value": 35.443 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 10, "comments": 3, "value": 17.893 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 285, "comments": 2, "value": 34.818 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 305, "comments": 16, "value": 39.53 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 202, "comments": 19, "value": 62.347 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 108, "comments": 1, "value": 22.874 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 67, "comments": 7, "value": 81.554 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 7, "comments": 1, "value": 11.837 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 211, "comments": 7, "value": 56.867 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 151, "comments": 7, "value": 17.108 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 437, "comments": 18, "value": 99.871 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 53, "comments": 9, "value": 76.88 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 42, "comments": 1, "value": 17.274 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 20, "comments": 1, "value": 18.699 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 104, "comments": 9, "value": 100.652 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 9, "comments": 2, "value": 10.122 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 37, "comments": 1, "value": 16.491 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 181, "comments": 2, "value": 33.334 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 79, "comments": 3, "value": 9.016 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 257, "comments": 3, "value": 57.679 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 62, "comments": 5, "value": 13.315 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 97, "comments": 0, "value": 11.675 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 328, "comments": 9, "value": 26.956 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 12, "comments": 0, "value": 9.121 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 15, "comments": 1, "value": 8.778 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 11, "comments": 1, "value": 8.778 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 14, "comments": 0, "value": 16.133 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 9, "comments": 0, "value": 8.289 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 209, "comments": 3, "value": 11.312 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 104, "comments": 1, "value": 10.439 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 70, "comments": 0, "value": 9.509 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 72, "comments": 0, "value": 10.211 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 50, "comments": 1, "value": 10.776 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 6, "comments": 0, "value": 5.412 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 5, "comments": 0, "value": 7.639 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 20, "comments": 1, "value": 12.41 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 4, "comments": 1, "value": 7.555 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 31, "comments": 0, "value": 30.517 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 127, "comments": 7, "value": 12.768 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 6, "comments": 2, "value": 12.611 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 266, "comments": 1, "value": 8.031 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 31, "comments": 69, "value": 10.711 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 31, "comments": 69, "value": 10.711 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 31, "comments": 69, "value": 10.711 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 565, "comments": 3, "value": 93.521 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 45, "comments": 2, "value": 73.844 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 27, "comments": 2, "value": 64.64 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 1065, "comments": 2, "value": 31.601 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 13, "comments": 0, "value": 28.47 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 548, "comments": 2, "value": 76.753 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 655, "comments": 1, "value": 46.328 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 126, "comments": 1, "value": 35.441 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 10, "comments": 3, "value": 17.892 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 285, "comments": 2, "value": 34.816 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 202, "comments": 19, "value": 62.344 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 108, "comments": 1, "value": 22.873 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 67, "comments": 7, "value": 81.55 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 211, "comments": 7, "value": 56.864 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 154, "comments": 7, "value": 17.119 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 437, "comments": 18, "value": 99.866 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 53, "comments": 9, "value": 76.876 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 42, "comments": 1, "value": 17.274 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 20, "comments": 1, "value": 18.698 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 104, "comments": 9, "value": 100.646 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 9, "comments": 2, "value": 10.121 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 85, "comments": 4, "value": 9.4 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 37, "comments": 1, "value": 16.49 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 181, "comments": 2, "value": 33.332 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 257, "comments": 3, "value": 57.677 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 62, "comments": 5, "value": 13.315 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 99, "comments": 0, "value": 11.675 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 328, "comments": 10, "value": 26.955 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 15, "comments": 1, "value": 8.777 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 11, "comments": 1, "value": 8.777 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 210, "comments": 3, "value": 11.312 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 105, "comments": 1, "value": 10.441 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 70, "comments": 0, "value": 9.508 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 1, "comments": 0, "value": 0 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 0, "comments": 0, "value": 0 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 2, "comments": 0, "value": 0.024 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 6, "comments": 0, "value": 0.005 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 1, "comments": 1, "value": 0 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 6, "comments": 1, "value": 0 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 6, "comments": 0, "value": 0.156 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 3, "comments": 0, "value": 0.002 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 14, "comments": 0, "value": 0.011 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 1, "comments": 1, "value": 0.185 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 2, "comments": 0, "value": 0.102 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 6, "comments": 0, "value": 0.005 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 1, "comments": 1, "value": 0 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 4, "comments": 0, "value": 0.001 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 111, "comments": 0, "value": 0.075 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 0, "comments": 0, "value": 0 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 3, "comments": 1, "value": 0.013 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 437, "comments": 0, "value": 0.283 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 570, "comments": 0, "value": 0.373 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 570, "comments": 0, "value": 0.373 },
+    "output": { "trending": 1 }
+  },
+  {
+    "input": { "votes": 3, "comments": 2, "value": 0.011 },
+    "output": { "trending": 0 }
+  },
+  {
+    "input": { "votes": 570, "comments": 0, "value": 0.373 },
+    "output": { "trending": 1 }
+  }
+]
