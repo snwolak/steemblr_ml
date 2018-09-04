@@ -2,16 +2,18 @@ const brain = require('brain.js')
 const dataset = require('./dataset.json')
 const config = {
   activation: 'sigmoid',
-  iterations: 100,
-  log: true,
-  learningRate: 0.5,
+  iterations: 20000,
+  learningRate: 0.001,
 };
 const net = new brain.NeuralNetwork(config);
 const data = dataset
 net.train(data) 
-const run = net.run({votes:72, comments: 3, value: 0.72})
-console.log
+
 const app = (req, res) => {
+  res.set("Access-Control-Allow-Origin", "*");
+  res.status(200)
+  const run = net.run(req.body)
+  console.log(run)
   res.send(run)
  
   res.end()
