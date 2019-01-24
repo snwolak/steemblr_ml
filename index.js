@@ -2,10 +2,10 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
 const trending = require('./trending')
-
+const send = require('./send')
 app.use(bodyParser.json())
-
+app.get('/', (req, res) => res.send('Hello World\n'))
 app.post('/rate', trending.app)
-
+app.post('/send', send.app)
 app.listen(3005, () => console.log('Server in running on port 3005!'))
 
